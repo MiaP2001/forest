@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# WebStorm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary Files
+*.bak
+*.tmp
+*.swp
+
+# Dependency directories
+jspm_packages/
+
+# VSCode
+.vscode/
+
+# JetBrains specific
+*.iml
+*.iws

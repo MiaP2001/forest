@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forest-aesthetic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="forest-aesthetic.css">
+</head>
+<body>
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/4k-forest-7sfd6znw2ry6hnlt.jpg" class="d-block w-100" alt="forest-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Whispers of the Forest</h5>
+                        <p>A serene journey through the rustling trees and hidden sounds.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/airplane-green-trees-aerial-view-forest-green-background-2560x1440-2981.jpg" class="d-block w-100" alt="forest-2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Echoes of the Wild</h5>
+                        <p>The forest’s heartbeats—where every rustle, chirp, and breeze tells a story.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/canva-green-nature-aesthetic-quotes-desktop-wallpaper-zd64ZbHmEDc.jpg" class="d-block w-100" alt="forest-3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Embrace of the Wilderness</h5>
+                        <p>The forest wraps around you, a place of refuge and adventure.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+        <main>
+            <div class="main-content my-3 mx-5">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+
+                <div class="gap-3 container-xl my-3">
+                    <h1 class="text-success text-center my-4 fs-3">Forest Mysteries</h1>
+
+
+                    <div class="card-bar row g-3">
+                        <div class="card col-12 col-md-4">
+                            <img src="images/airplane-green-trees-aerial-view-forest-green-background-2560x1440-2981.jpg" class="card-img-top" alt="forest-2">
+                            <div class="card-body">
+                                <h5 class="card-title">The Symphony of the Forest</h5>
+                                <p class="card-text">Immerse yourself in the whispers of the trees, where every path holds a story waiting to be discovered.</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Launch demo modal
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-sm-6 col-md-4">
+                            <img src="images/4k-forest-7sfd6znw2ry6hnlt.jpg" class="card-img-top" alt="forest-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Secrets of the Deep Woods</h5>
+                                <p class="card-text">The forest is not just nature; it's a sanctuary for dreams, peace, and inspiration.</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Launch demo modal
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-sm-6 col-md-4">
+                            <img src="images/canva-green-nature-aesthetic-quotes-desktop-wallpaper-zd64ZbHmEDc.jpg" class="card-img-top" alt="forest-3">
+                            <div class="card-body">
+                                <h5 class="card-title">The Path to Freedom</h5>
+                                <p class="card-text">Explore the untouched corners of the green wilderness and find harmony within yourself.</p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Launch demo modal
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2 class="text-success text-center my-4 fs-3">The Essence of the Woods</h2>
+
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                The Canopy's Whisper
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The Canopy's Whisper</strong>
+                                The dense canopy of the forest is like a natural shield, wrapping you in its serenity. The rustling leaves above tell silent stories of time and growth, offering a soothing escape from the noise of daily life. Beneath this green ceiling, you can hear the forest breathe, urging you to pause, reflect, and reconnect with the earth.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Rings of Time
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Rings of Time</strong>
+                                Each tree stands as a silent witness to decades, even centuries, of history. Its rings tell tales of rain and drought, of warmth and cold. Walking among the trees is like walking through a living library of nature, where each trunk holds the wisdom of the ages. The forest reminds us that growth is slow but steady, and even the smallest sapling can one day become a giant.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                The Wild Invitation
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The Wild Invitation</strong>
+                                The untamed beauty of the forest is both mysterious and inviting. It dares you to step off the beaten path, to explore its secret corners and hidden trails. With every crunch of leaves and snap of twigs, you feel a connection to something ancient and unbroken. The forest challenges us to embrace the unknown, teaching that adventure often lies just beyond our comfort zones.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+    <footer class="text-bg-dark py-4">
+        <div class="container-xl">
+            <div class="row gy-4 gx-2">
+                <div class="col-12 col-md-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-white">Echoes of the Forest</li>
+                        <li class="list-group-item bg-transparent text-white">Whispering winds through the trees</li>
+                        <li class="list-group-item bg-transparent text-white">The rhythm of raindrops on leaves</li>
+                        <li class="list-group-item bg-transparent text-white">A symphony of birdsong at dawn</li>
+                        <li class="list-group-item bg-transparent text-white">Crackling sounds of fallen branches </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-white">Colors of Serenity</li>
+                        <li class="list-group-item bg-transparent text-white">Vibrant green moss on the ground</li>
+                        <li class="list-group-item bg-transparent text-white">Golden hues of sunlight streaming through</li>
+                        <li class="list-group-item bg-transparent text-white">Soft white mist hovering over the forest floor</li>
+                        <li class="list-group-item bg-transparent text-white">The deep brown of ancient trunks</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-white"> Mysteries of the Forest</li>
+                        <li class="list-group-item bg-transparent text-white">Hidden paths winding through dense foliage</li>
+                        <li class="list-group-item bg-transparent text-white">Ancient tree roots forming natural sculptures</li>
+                        <li class="list-group-item bg-transparent text-white">Sparkling dew drops catching the first light</li>
+                        <li class="list-group-item bg-transparent text-white">Forgotten clearings bathed in sunlight</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="btn btn-primary menu-button position-fixed bottom-0 end-0 me-4 mb-4 rounded-circle p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Menu
+    </button>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
